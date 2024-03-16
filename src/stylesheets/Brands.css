@@ -1,0 +1,59 @@
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-image {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 145px;
+    /* Keep aspect ratio */
+    animation: zoomInOut 2s infinite alternate;
+    /* Animation */
+}
+
+.brand-name {
+    font-size: 14px;
+    /* Adjust size as needed */
+    animation: zoomInOut 2s infinite alternate;
+    /* Animation */
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Add these styles to your CSS file or style block */
+
+/* Add these styles to your CSS file or style block */
+
+.dropdown-menu {
+    opacity: 0;
+    animation: dropdownAnimation 0.5s forwards;
+    transform-origin: top;
+}
+
+.relative:hover .dropdown-menu {
+    animation: none;
+    opacity: 1;
+}
+
+@keyframes dropdownAnimation {
+    0% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}

@@ -17,7 +17,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4 h-[500px]">
                         <span className="block mb-2 text-lg">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec.png"
+                            src="assets/spec.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />
@@ -31,7 +31,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4">
                         <span className="block mb-2">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec1.png"
+                            src="assets/spec1.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />
@@ -44,7 +44,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4 h-[500px]">
                         <span className="block mb-2 text-lg">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec2.png"
+                            src="assets/spec2.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />
@@ -58,7 +58,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4">
                         <span className="block mb-2">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec3.png"
+                            src="assets/spec3.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />
@@ -71,7 +71,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4 h-[500px]">
                         <span className="block mb-2 text-lg">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec4.png"
+                            src="assets/spec4.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />
@@ -85,7 +85,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4">
                         <span className="block mb-2">The Expert Professionals</span>
                         <img
-                            src="src/assets/spec5.png"
+                            src="assets/spec5.png"
                             alt="Infrastructure"
                             className="w-[360px] h-[130px] mb-8 mt-8"
                         />

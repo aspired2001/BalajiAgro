@@ -48,15 +48,15 @@ ProductCard.propTypes = {
 
 const Products = () => {
     const products = [
-        { id: 1, name: 'STEAM KATARNI RICE', image: '/src/assets/Product.png', rating: 4 },
-        { id: 2, name: 'Shingham Govind Bhog', image: '/src/assets/Product1.png', rating: 3 },
-        { id: 3, name: 'Baba Premium Rice', image: '/src/assets/Product2.png', rating: 5 },
-        { id: 4, name: 'Panchakanya Biryani Sella Rice', image: '/src/assets/Product3.png', rating: 4 },
+        { id: 1, name: 'STEAM KATARNI RICE', image: 'assets/Product.png', rating: 4 },
+        { id: 2, name: 'Shingham Govind Bhog', image: 'assets/Product1.png', rating: 3 },
+        { id: 3, name: 'Baba Premium Rice', image: 'assets/Product2.png', rating: 5 },
+        { id: 4, name: 'Panchakanya Biryani Sella Rice', image: 'assets/Product3.png', rating: 4 },
         // Add more products as needed
     ];
 
     return (
-        <div style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/src/assets/Rice.png')` }} className="bg-cover bg-center py-16 rounded-sm">
+        <div style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/Rice.png')` }} className="bg-cover bg-center py-16 rounded-sm">
             <div className=' text-center mb-7 ' >
                 <span className='text-white text-[40px] font-bold font-serif '>Our Product</span>
             </div>

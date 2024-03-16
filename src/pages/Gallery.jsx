@@ -5,9 +5,9 @@ import '../stylesheets/Gallery.css'; // Create this file for custom
 
 
 const images = [
-    '/src/assets/hero.png',
-    '/src/assets/hero1.png',
-    '/src/assets/hero2.png',
+    '/assets/hero.png',
+    '/assets/hero1.png',
+    '/assets/hero2.png',
     // Add more images as needed
 ];
 

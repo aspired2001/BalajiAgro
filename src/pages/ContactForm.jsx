@@ -1,5 +1,6 @@
 import  { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -44,6 +45,8 @@ const ContactForm = () => {
             message: '',
         });
     };
+
+
 
     return (
         <div className="container mx-auto max-w-md mt-8 p-4 bg-gray-100 rounded-md">
@@ -112,7 +115,8 @@ const ContactForm = () => {
                         required
                     />
                 </div>
-
+            
+          
                 <button
                     type="submit"
                     
@@ -122,6 +126,15 @@ const ContactForm = () => {
                 >
                     Submit
                 </button>
+
+                <FloatingWhatsApp
+                    phoneNumber="+919820908809" // Replace with your WhatsApp number
+                    accountName="Ritika" // Name displayed in the WhatsApp widget
+                    avatar="https://example.com/avatar.jpg" // URL of the avatar image
+                    chatMessage="Hello, How can I Help you ?" // Predefined message
+                    allowClickAway={true} 
+                />
+
             </form>
         </div>
     );

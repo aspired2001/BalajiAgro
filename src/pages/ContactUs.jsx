@@ -1,6 +1,6 @@
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
-import LiveLocationMap from "./LiveLocationMap";
+
 
 
 const ContactUs=()=>{
@@ -32,7 +32,7 @@ const ContactUs=()=>{
          </div>
 
          <div className="mt-16 w-[100vw] px-[40px] items-center">
-               <img src="src/assets/map.png" className="rounded-[10px] hover:-translate-y-2 ease-in-out duration-100 
+               <img src="assets/map.png" className="rounded-[10px] hover:-translate-y-2 ease-in-out duration-100 
                 delay-100 cursor-pointer" />
          </div>
 

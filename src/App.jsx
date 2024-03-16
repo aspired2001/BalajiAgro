@@ -8,6 +8,7 @@ const BOD = lazy(() => import('./pages/BOD'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const ContactUs = lazy(() => import('./pages/ContactUs'));
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
+const OurProducts = lazy(() => import('./pages/OurProducts'));
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/gallery-page" element={<GalleryPage />} />
+          <Route path="/our-products" element={<OurProducts />} />
         </Routes>
       </Suspense> 
      </Router>
