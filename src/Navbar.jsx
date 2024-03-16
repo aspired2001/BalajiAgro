@@ -61,23 +61,23 @@ const Navbar = () => {
                      to="/our-products"
                     className="nav-link cursor-pointer hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR PRODUCTS</Link>
                     {productsDropdown && (
-                        <div className="absolute left-0 right-0 top-full bg-white border border-gray-200 z-[1000] w-[500px] -translate-x-48 translate-y-14 rounded-lg ">
-                            <div className="flex flex-row items-center justify-center h-[145px] space-x-12 px-14 pb-4 pt-4">
-                                <div className="brand-item w-14 h-16">
-                                    <img src="assets/nav.png" alt="brand" className="brand-image" />
-                                    <span className="brand-name">Brand 1</span>
+                        <div className="absolute left-0 right-0 top-full bg-white border border-gray-200 z-[1000] w-[600px] -translate-x-48 translate-y-14 rounded-lg ">
+                            <div className="flex flex-row items-center justify-center h-[145px] space-x-20 px-14 pb-4 pt-8">
+                                <div className="brand-item ">
+                                    <img src="assets/lajawab.jpeg" alt="brand" className="brand-image" />
+                                    <span className="brand-name">Lajawab</span>
                                 </div>
-                                <div className="brand-item w-14 h-16">
-                                    <img src="assets/nav1.png" alt="Brand 2" className="brand-image" />
-                                    <span className="brand-name">Brand 2</span>
+                                <div className="brand-item ">
+                                    <img src="assets/Rajababu.webp" alt="Brand 2" className="brand-image" />
+                                    <span className="brand-name">Raja Babu</span>
                                 </div>
-                                <div className="brand-item w-14 h-16">
-                                    <img src="assets/nav2.png" alt="brand" className="brand-image" />
-                                    <span className="brand-name">Brand 3</span>
+                                <div className="brand-item ">
+                                    <img src="assets/kakasteam.jpeg" alt="brand" className="brand-image" />
+                                    <span className="brand-name">Kaka Steam</span>
                                 </div>
-                                <div className="brand-item w-14 h-16">
-                                    <img src="assets/nav3.png" alt="Brand 4" className="brand-image" />
-                                    <span className="brand-name">Brand 4</span>
+                                <div className="brand-item ">
+                                    <img src="assets/miniket.jpeg" alt="Brand 4" className="brand-image" />
+                                    <span className="brand-name">Miniket</span>
                                 </div>
                             </div>
                         </div>

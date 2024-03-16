@@ -1,13 +1,13 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../stylesheets/Gallery.css'; // Create this file for custom 
-
+import '../stylesheets/Gallery.css'; // Create this file for custom styles if needed
 
 const images = [
-    '/assets/hero.png',
-    '/assets/hero1.png',
-    '/assets/hero2.png',
+    '/assets/Slide1.jpg',
+    '/assets/Slide2.jpg',
+    '/assets/Slide3.jpg',
+    '/assets/Slide4.jpg',
     // Add more images as needed
 ];
 
@@ -29,15 +29,19 @@ const Gallery = () => {
     };
 
     return (
-        <Slider {...settings}>
-            {images.map((image, index) => (
-                <div key={index}>
-                    <img src={image}
-                    className='object-fit bg-cover'
-                    alt={`slide-${index + 1}`} />
-                </div>
-            ))}
-        </Slider>
+        <div className="slider-container">
+            <Slider {...settings}>
+                {images.map((image, index) => (
+                    <div key={index}>
+                        <div className="overlay"></div>
+                        <img
+                            src={image}
+                            alt={`slide-${index + 1}`}
+                        />
+                    </div>
+                ))}
+            </Slider>
+        </div>
     );
 };
 

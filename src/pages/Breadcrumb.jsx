@@ -12,7 +12,7 @@ const CompanySection = () => {
 
             {/* Overlay text */}
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif">
-                Home &middot; <span className="text-blue-500 hover:text-blue-300">Corporate Profile</span>
+                Home &middot; <span className="text-blue-500 hover:text-blue-300 ">Corporate Profile</span>
             </span>
         </div>
     );
