@@ -24,19 +24,21 @@ const Welcome = () => {
                         Jharkhand, Bihar, Odisha, West Bengal, and Assam.
                     </p>
                 </div>
-                <div className="md:block relative w-[450px] mx-auto overflow-hidden rounded-[20px]">
-                    <div className="relative z-10 overflow-hidden rounded-[18px] p-[2px] mt-[8px] w- min-[300px]:mr-14 min-[300px]:-translate-x-8  ">
+                <div className="md:block relative mx-auto overflow-hidden rounded-[10px] max-w-[450px]">
+                    <div className="relative z-10 overflow-hidden rounded-[18px] p-[2px] mt-[8px] w-full md:min-w-[350px] md:mr-14 md:-translate-x-8">
                         <img
                             src="https://images.pexels.com/photos/3345727/pexels-photo-3345727.jpeg?auto=compress&cs=tinysrgb&w=600"
                             alt="Placeholder"
-                            className="w-full h-[300px] object-cover object-center transform scale-100 transition-transform duration-300 hover:scale-105"
+                            className="w-[300px] h-[300px] md:h-[300px] object-cover object-center transform scale-100 transition-transform duration-300 hover:scale-105"
                         />
                     </div>
                 </div>
 
+                </div>
+
 
             </div>
-        </div>
+        
     );
 };
 
