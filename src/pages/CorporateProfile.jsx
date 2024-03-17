@@ -18,23 +18,24 @@ const CorporateProfile = () => {
                         </p>
                     </div>
 
-                    <div className="w-full h-full pr-4 ml-[100px]">
+                    <div className="w-full h-full pr-4 ml-[5px] md:ml-[50px]">
                         <img
-                            className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[400px]"
+                            className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[400px] mx-auto md:ml md:mr-auto"
                             src="https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJpY2V8ZW58MHx8MHx8fDA%3D"
                             alt="/rice"
                         />
                     </div>
-                </div>
 
-                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                    <div>
-                        <img
-                            className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[400px] ml-24"
-                            src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmljZXxlbnwwfHwwfHx8MA%3D%3D"
-                            alt="/food"
-                        />
+                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <img
+                                className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[400px] mx-auto md:ml-auto md:mr-auto"
+                                src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmljZXxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="/food"
+                            />
+                        </div>
                     </div>
+
 
                     <div>
                         <p className="text-[18px] text-justify font-serif pt-4 mr-8 pl-4">
