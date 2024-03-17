@@ -13,9 +13,8 @@ const Customers = () => {
 
 
     return (
-        <div className="flex flex-col w-[100vw]
-         lg:h-[500px] pb-3 pr-2 pt-8  items-center bg-[#1e3a8a] rounded-sm " >
-            <h1 className="text-white  text-4xl font-serif font-bold pt-4 " >Customers & Networks</h1>
+        <div className="flex flex-col lg:h-[500px] pb-3 pr-2 pt-8  items-center bg-[#1e3a8a] rounded-sm " >
+            <h1 className="text-white text-center  text-4xl font-serif font-bold pt-4 " >Customers & Networks</h1>
             <div className="mt-4">
                 <h2 className="text-white  text-2xl font-serif font-bold">distribution Network</h2>
             </div>
