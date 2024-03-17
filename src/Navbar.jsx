@@ -34,10 +34,10 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="flex items-center justify-around h-[80px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
-            <div className="h-full w-[100px] pt-[28px]">
+        <nav className="flex items-center justify-around h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
+            <div className="h-full w-[100px] pt-[5px]">
                 <Link to="/" className="text-blue-700 font-serif font-semibold text-lg animate-navbar">
-                    LOGO
+                    <img src="assets/Logo.png" className='h-[90px]' />
                 </Link>
             </div>
 

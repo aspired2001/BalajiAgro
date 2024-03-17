@@ -11,7 +11,7 @@ import Welcome from "./Welcome";
 
 const Home = () => {
     return (
-        <div className=" mt-[85px] overflow-hidden ">
+        <div className=" mt-[106px] overflow-hidden ">
             <div className="px-[10px] " >
                 <Gallery/>
             </div>
