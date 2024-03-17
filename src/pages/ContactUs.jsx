@@ -14,8 +14,8 @@ const ContactUs = () => {
             />
 
             {/* Overlay text */}
-            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif">
-               Home &middot; <span className="text-blue-500 hover:text-blue-300">Contact Us</span>
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
+               Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap">Contact Us</span>
             </span>
          </div>
 

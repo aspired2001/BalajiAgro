@@ -82,8 +82,8 @@ const OurProducts = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-40 shadow-lg"></div>
                 {/* Overlay text */}
-                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif">
-                    Home &middot; <span className="text-blue-500 hover:text-blue-300">Our Products</span>
+                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
+                    Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap">Our Products</span>
                 </span>
             </div>
 
