@@ -1,11 +1,10 @@
+
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
-
-
-const ContactUs=()=>{
-   return(
-      <div className=" mt-[101px]">
+const ContactUs = () => {
+   return (
+      <div className="mt-[101px]">
          <div className="relative overflow-hidden">
             {/* Background image */}
             <img
@@ -20,27 +19,46 @@ const ContactUs=()=>{
             </span>
          </div>
 
-         <div className="w-[100%] px-9 pt-20 ">
-            <div className="flex flex-col w-[50%] bg-slate-300 shadow-inner rounded-xl pb-8">
-                <h1 className="text-3xl font-serif font-semibold text-center pt-4 text-blue-700 " >CONTACT US</h1>
-                <ContactForm/>
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-9 pt-20">
+            <div className="bg-slate-300 shadow-inner rounded-xl pb-8">
+               <h1 className="text-3xl font-serif font-semibold text-center pt-4 text-blue-700">CONTACT US</h1>
+               <ContactForm />
             </div>
 
-            <div>
+            {/* Second column */}
+            <div className="hidden md:block bg-gray-200 rounded-xl pb-8">
+               <h1 className="text-center mt-4 text-3xl font-serif font-bold text-blue-700">ADDRESS</h1>
 
+               <div className="font-serif mt-8 ml-8">
+                  <p className="text-lg font-semibold text-gray-700">Balaji Agro Tech Industries</p>
+                  <p className="text-md font-semibold text-gray-600 mt-2">Tikratol, Nagri, Ranchi 835303, Jharkhand, India</p>
+                  <p className="text-md font-semibold text-gray-600 mt-2">Nagri, Bero, Ranchi, Jharkhand, India</p>
+                  <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
+                     Desk: <a href="tel:+918885416559">08885416559</a>
+                  </p>
+                  <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
+                     Mill: <a href="tel:+916502507840">0650-2507840</a>
+                  </p>
+                  <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
+                     Order: <a href="mailto:sales@balajiagrotech.co.in">sales@balajiagrotech.co.in</a>
+                  </p>
+                  <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
+                     Career: <a href="mailto:hr@balajiagrotech.co.in">hr@balajiagrotech.co.in</a>
+                  </p>
+               </div>
             </div>
+
          </div>
 
          <div className="mt-16 w-[100vw] px-[40px] items-center">
-               <img src="assets/map.png" className="rounded-[10px] hover:-translate-y-2 ease-in-out duration-100 
-                delay-100 cursor-pointer" />
+            <img src="assets/map.png" className="rounded-[10px] hover:-translate-y-2 ease-in-out duration-100 delay-100 cursor-pointer" alt="Map" />
          </div>
 
-         <div className="mt-[60px] w-[100%] ">
-            <Footer/>
+         <div className="mt-[60px] w-[100%]">
+            <Footer />
          </div>
-      
       </div>
    );
 }
-export default ContactUs
+
+export default ContactUs;
