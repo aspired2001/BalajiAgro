@@ -19,7 +19,7 @@ const Special = () => {
                         <img
                             src="assets/spec.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
@@ -33,7 +33,7 @@ const Special = () => {
                         <img
                             src="assets/spec1.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
@@ -46,7 +46,7 @@ const Special = () => {
                         <img
                             src="assets/spec2.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
@@ -60,7 +60,7 @@ const Special = () => {
                         <img
                             src="assets/spec3.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
@@ -73,7 +73,7 @@ const Special = () => {
                         <img
                             src="assets/spec4.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
@@ -87,7 +87,7 @@ const Special = () => {
                         <img
                             src="assets/spec5.png"
                             alt="Infrastructure"
-                            className="w-[360px] h-[130px] mb-8 mt-8"
+                            className="w-[300px] translate-x-8 ml-4 h-[130px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.

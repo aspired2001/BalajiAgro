@@ -1,7 +1,75 @@
 import Footer from './Footer'
 
+import useCustomGallery from '../CustomHooks/useCustomGallery';
+
+
+
 
 const OurProducts = () => {
+
+    const images = [
+        {
+            original: 'assets/kakasteam.jpeg',
+            thumbnail: 'assets/kakasteam.jpeg',
+            originalAlt: 'Image 1',
+            thumbnailAlt: 'Image 1 Thumbnail'
+        },
+        {
+            original: 'assets/kaka.jpeg',
+            thumbnail: 'assets/kaka.jpeg',
+            originalAlt: 'Image 2',
+            thumbnailAlt: 'Image 2 Thumbnail'
+        },
+        {
+            original: 'assets/steamkatarni.jpeg',
+            thumbnail: 'assets/Gal3.JPG',
+            originalAlt: 'Image 3',
+            thumbnailAlt: 'Image 3 Thumbnail'
+        },
+        
+    ];
+    const image = [
+        {
+            original: 'assets/kakasteam.jpeg',
+            thumbnail: 'assets/kakasteam.jpeg',
+            originalAlt: 'Image 1',
+            thumbnailAlt: 'Image 1 Thumbnail'
+        },
+        {
+            original: 'assets/kaka.jpeg',
+            thumbnail: 'assets/kaka.jpeg',
+            originalAlt: 'Image 2',
+            thumbnailAlt: 'Image 2 Thumbnail'
+        },
+        {
+            original: 'assets/steamkatarni.jpeg',
+            thumbnail: 'assets/Gal3.JPG',
+            originalAlt: 'Image 3',
+            thumbnailAlt: 'Image 3 Thumbnail'
+        },
+        
+    ];
+    const imagez = [
+        {
+            original: 'assets/kakasteam.jpeg',
+            thumbnail: 'assets/kakasteam.jpeg',
+            originalAlt: 'Image 1',
+            thumbnailAlt: 'Image 1 Thumbnail'
+        },
+        {
+            original: 'assets/kaka.jpeg',
+            thumbnail: 'assets/kaka.jpeg',
+            originalAlt: 'Image 2',
+            thumbnailAlt: 'Image 2 Thumbnail'
+        },
+        {
+            original: 'assets/steamkatarni.jpeg',
+            thumbnail: 'assets/Gal3.JPG',
+            originalAlt: 'Image 3',
+            thumbnailAlt: 'Image 3 Thumbnail'
+        },
+        
+    ];
 
     return (
         <div>
@@ -23,13 +91,8 @@ const OurProducts = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="swiper-container pt-8">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                <img src="assets/kakasteam.jpeg" alt="Image 1" className="w-[460px] h-[350px]   rounded-md" />
-                            </div>
                            
-
-                        </div>
+                                {useCustomGallery('5xl', '3xl', images)} 
                     </div>
                     <div className="translate-y-12">
                         <h1 className="text-3xl font-bold mb-4 font-serif text-blue-700">Parboiled rice</h1>
@@ -47,28 +110,15 @@ const OurProducts = () => {
                         </p>
                     </div>
                     
-                    <div className="swiper-container translate-y-16 -translate-x-12">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                <img src="assets/kakasteam.jpeg" alt="Image 1" className="w-[460px] h-[350px]  rounded-md" />
-                            </div>
-
-                        </div>
+                    <div className="swiper-container translate-y-16 translate-x-4">
+                        {useCustomGallery('5xl', '3xl', image)} 
                     </div>
 
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 ">
                     <div className="swiper-container pt-12 pl-4">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                <img src="assets/kakasteam.jpeg" alt="Image 1" className="w-[460px] h-[350px]  rounded-md" />
-                            </div>
-                            {/* <div className="swiper-slide">
-                                <img src="src/assets/steamkatarni.jpeg" alt="Image 2" className="w-[360px] h-[250px]  rounded-md" />
-                            </div> */}
-                            {/* Add more images as needed */}
-                        </div>
+                        {useCustomGallery('5xl', '3xl', imagez)} 
                     </div>
                     <div className="translate-y-12">
                         <h1 className="text-3xl font-bold mb-4 font-serif text-blue-700">Special Rice</h1>

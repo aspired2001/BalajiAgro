@@ -35,11 +35,12 @@ const Navbar = () => {
 
     return (
         <nav className="flex items-center justify-around h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
-            <div className="h-full w-[100px] pt-[5px]">
+            <div className="h-[95%] pt-[5px] md:pl-0 md:pr-5 pl-5 ">
                 <Link to="/" className="text-blue-700 font-serif font-semibold text-lg animate-navbar">
-                    <img src="assets/Logo.png" className='h-[90px]' />
+                    <img src="assets/Logo.png" className="h-[85px] min-[400px]:-translate-x-24 " />
                 </Link>
             </div>
+
 
             <div className="hidden md:flex h-full pt-7 space-x-6 font-serif">
                 <Link to="/" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">HOME</Link>
@@ -88,17 +89,24 @@ const Navbar = () => {
                 <Link to="/contact-us" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CONTACT US</Link>
             </div>
 
-            <div className="md:hidden cursor-pointer pt-14" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                {mobileMenuOpen ? <FaTimes className="text-blue-700 text-xl" /> : <FaBars className="text-blue-700 text-xl" />}
+            <div className="md:hidden cursor-pointer pt-14 " onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+                {mobileMenuOpen ? <FaTimes className="text-blue-700 text-xl " /> : <FaBars className="text-blue-700 text-xl " />}
             </div>
 
             {mobileMenuOpen && (
-                <div className="md:hidden absolute top-[100px] left-0 w-[540px] bg-white flex flex-col items-center z-[1000] h-[400px] rounded-xl transition-all duration-300 ease-in-out space-y-10 pt-8 font-serif -translate-y-5">
-                    <Link to="/" className="mobile-nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">HOME</Link>
-                    <Link to="/corporate-profile" className="mobile-nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CORPORATE PROFILE</Link>
-                    <Link to="/bod" className="mobile-nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">BOD</Link>
-                    <Link to="/gallery-page" className="mobile-nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">GALLERY</Link>
-                    <Link to="/contact-us" className="mobile-nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CONTACT US</Link>
+                <div className="md:hidden   inset-0 overflow-hidden z-50 ">
+                    <div className="flex justify-center items-center h-full">
+                        <div className="absolute top-[100px] left-0 w-full max-w-sm p-6 bg-white rounded-xl shadow-md translate-x-12 ">
+                            <div className="flex flex-col space-y-4">
+                                <Link to="/" className="mobile-nav-link">HOME</Link>
+                                <Link to="/corporate-profile" className="mobile-nav-link">CORPORATE PROFILE</Link>
+                                <Link to="/our-products" className="mobile-nav-link">OUR PRODUCTS</Link>
+                                <Link to="/bod" className="mobile-nav-link">BOD</Link>
+                                <Link to="/gallery-page" className="mobile-nav-link">GALLERY</Link>
+                                <Link to="/contact-us" className="mobile-nav-link">CONTACT US</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             )}
         </nav>
