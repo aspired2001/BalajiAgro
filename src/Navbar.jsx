@@ -37,7 +37,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-around h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
             <div className="h-[95%] pt-[5px] md:pl-0 md:pr-5 pl-5 ">
                 <Link to="/" className="text-blue-700 font-serif font-semibold text-lg animate-navbar">
-                    <img src="assets/Logo.png" className="h-[85px] min-[300px]:-translate-x-24 " />
+                    <img src="assets/Logo.png" className="h-[85px] min-[300px]:-translate-x-24 min-[300px]:pl-4   " />
                 </Link>
             </div>
 
